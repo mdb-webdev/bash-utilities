@@ -1,0 +1,29 @@
+#  ---------------------------------------------------------------------------
+#  Description: BASH file containing main path exports and references to 
+#               configurations and alias files
+#
+#   * Up until 12/30/2015, this was my actual profile. But it is now just 
+#     a backup of my original profile before I began improving it.
+#  ---------------------------------------------------------------------------
+
+#   ------------------------------------------------------------
+#   1.  CHECK FOR, REFERENCE, AND SOURCE .bashrc FILE
+#   ------------------------------------------------------------
+
+[[ -s ~/.bashrc ]] && source ~/.bashrc
+
+# # #     - .bashrc holds most of the customizations, including
+# # #       prompt customizations, and aliases.
+
+
+#   ------------------------------------------------------------
+#   Change PATH Variable
+#   ------------------------------------------------------------
+
+#export PATH="/usr/local/bin:$PATH"
+
+#export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
+#export PATH="/usr/local/sbin:$PATH"
+#echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
