@@ -1,0 +1,26 @@
+#  ---------------------------------------------------------------------------
+#	  ~/.bash_profile
+#  ---------------------------------------------------------------------------
+#
+#  Description: BASH file containing main path exports and references to 
+#               configurations and alias files
+#
+#  ---------------------------------------------------------------------------
+
+#  ---------------------------------------------------------------------------
+#   1.  CHECK FOR, REFERENCE, AND SOURCE .bashrc FILE
+#  ---------------------------------------------------------------------------
+
+[[ -s ~/.bashrc ]] && source ~/.bashrc
+
+# # #     - .bashrc holds most of the customizations, including
+# # #       prompt customizations, and aliases (and reference to .bash_aliases)
+
+#  ---------------------------------------------------------------------------
+#   2.	Change PATH Variable
+#  ---------------------------------------------------------------------------
+
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+
+#  ---------------------------------------------------------------------------
