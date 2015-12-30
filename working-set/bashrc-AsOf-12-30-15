@@ -1,69 +1,20 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# ~/.bashrc
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # $PATH LOCATIONS # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-	# Add path to Python scripts directory
+	# none right now, but in the future, add them here if they are needed.
 
 
-	# Textmate shell command tools
-
-	# Add Ruby path
-
-
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # CUSTOMIZING TERMINAL APPEARANCE # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 
-
-
-	# Change Prompt
-#export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-
-			# blueish       white     		green				yellow				white
-#export PS1="\[\033[36m\] M    \033[m\]  D   \[\033[32m\]   B   \n    \[\033[33;1m\] :  \w  \n \[\033[m\]  \n *"
-
-#export PS1="\[\033[36m\] | \n | \[\033[33;1m\] \w \[\033[m\] \[\033[36m\]  \n |----|: \[\033[32m\]"
-export PS1="\[\033[36m\] |----------------------------------------------------------------- \n | \[\033[33;1m\]\w \[\033[m\] \[\033[36m\]  \n |----|: \[\033[32m\]"
-
-
-#[ ~/Developer/Python/Projects/Test ]
-
-
-
-
-
-	# Add Colors
-export CLICOLOR=1
-
-	# Add Color . . .
-export LSCOLORS=ExFxBxDxCxegedabagacad
-
-	# Add Alias
-alias ls='ls -GFh'
-
-
-
-
-
-
-
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-# # # CUSTOMIZING TERMINAL APPEARANCE # # # # # # # # # # # # # # # # # # # # # # # #
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
+# -----------------------------------------------------------------------------------
+#	GUIDE TO CUSTOMIZING TERMINAL APPEARANCE 
+# -----------------------------------------------------------------------------------
 
 ###    \a         # an ASCII bell character (07)
 ###    \d         # the date in "Weekday Month Date" format (e.g., "Tue May 26")
@@ -98,3 +49,41 @@ alias ls='ls -GFh'
 ###    \[         # begin a sequence of non-printing characters, which could be used
 ###               #   to embed a terminal control sequence into the prompt
 ###    \]         # end a sequence of non-printing characters
+# -----------------------------------------------------------------------------------
+
+
+
+	# Change Prompt
+#export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+
+			# blueish       white     		green				yellow				white
+#export PS1="\[\033[36m\] M    \033[m\]  D   \[\033[32m\]   B   \n    \[\033[33;1m\] :  \w  \n \[\033[m\]  \n *"
+
+#export PS1="\[\033[36m\] | \n | \[\033[33;1m\] \w \[\033[m\] \[\033[36m\]  \n |----|: \[\033[32m\]"
+export PS1="\[\033[36m\] |----------------------------------------------------------------- \n | \[\033[33;1m\]\w \[\033[m\] \[\033[36m\]  \n |----|: \[\033[32m\]"
+
+# 	Here is what the cwd pre-prompt will look like:
+#	[ ~/Developer/Python/Projects/Test ]
+
+# -----------------------------------------------------------------------------------
+# OTHER , QUICK CHANGES:
+
+
+
+	# Add Colors
+export CLICOLOR=1
+
+	# Add Color . . .
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+	# Add Alias
+alias ls='ls -GFh'
+
+
+# -----------------------------------------------------------------------------------
+
+
+
+
+
+
