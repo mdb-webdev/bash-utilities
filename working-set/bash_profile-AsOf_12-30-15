@@ -20,10 +20,5 @@
 #   Change PATH Variable
 #   ------------------------------------------------------------
 
-#export PATH="/usr/local/bin:$PATH"
-
-#export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
-#export PATH="/usr/local/sbin:$PATH"
-#echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
